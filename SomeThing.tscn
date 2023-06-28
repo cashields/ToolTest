@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1wo4u1e1n1gk"]
+
+[ext_resource type="Script" path="res://SomeThing.gd" id="1_lwy0l"]
+[ext_resource type="Script" path="res://SpriteWrapper.gd" id="2_753cq"]
+
+[node name="SomeThing" type="Node"]
+script = ExtResource("1_lwy0l")
+
+[node name="SpriteWrapper" type="Node" parent="."]
+script = ExtResource("2_753cq")
+Texture = null
