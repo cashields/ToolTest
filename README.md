@@ -20,7 +20,7 @@ So I don't know why it isn't working.
 
 Thanks to this input from the Godot Discord server:
 
-    Looking at your screenshots, I don't see Sprite2D in the scene tree, and there's no scene branch icon next to SpriteWrapper. Are you sure it's there?
+> Looking at your screenshots, I don't see Sprite2D in the scene tree, and there's no scene branch icon next to SpriteWrapper. Are you sure it's there?
 
 The `SpriteWrapper` scene was added to `SomeThing` by right-clicking the root node of `SomeThing` and selecting "Add a Child":
 
