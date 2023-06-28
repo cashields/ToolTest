@@ -13,3 +13,19 @@ Both scripts have the `@tool` designation:
 ![Picture of the SomeThing and SpriteWrapper scripts, clearly showing @tool annotation](readme_imgs/yep-theyre-tools.png)
 
 So I don't know why it isn't working.
+
+---
+
+## Solution
+
+Thanks to this input from the Godot Discord server:
+
+    Looking at your screenshots, I don't see Sprite2D in the scene tree, and there's no scene branch icon next to SpriteWrapper. Are you sure it's there?
+
+The `SpriteWrapper` scene was added to `SomeThing` by right-clicking the root node of `SomeThing` and selecting "Add a Child":
+
+![Demonstration of how right-clicking works](readme_imgs/what-i-was-doing.png)
+
+To fix it, create the `SpriteWrapper` child node by *dragging and dropping* the scene from the file explorer into the tree:
+
+![Demonstration of dragging and dropping](readme_imgs/what-i-should-have-done.png)
